@@ -1,7 +1,5 @@
 <?php
-//加一个验证锁，防止别人引用
-header("Access-Control-Allow-Origin: https://引用域名");
- 
+
 $path = dirname(__FILE__);
 $file = file($path."/hitokoto.txt");
  
